@@ -32,6 +32,21 @@
         echo "<br>";
 
         echo "<h3> Soal No 3 Looping Asociative Array </h3>";
+        $numbers = [18, 45, 29, 61, 47, 34];
+        echo "array numbers: ";
+        print_r($numbers);
+        echo "<br>";
+
+        // Lakukan Looping di sini
+        $rest = [];
+        foreach ($numbers as $number) {
+            $remainder = $number % 5;
+            $rest[] = $remainder;
+        }
+         // tampilkan di sini
+         echo "Array sisa baginya adalah: ";
+         print_r($rest);
+         echo "<br>";
         /* 
             Soal No 8
             Loop Associative Array
@@ -53,6 +68,21 @@
             ['003', 'Mouse Genius', 50000, 'Mouse Genius biar lebih pinter', 'genius.jpeg'],
             ['004', 'Mouse Jerry', 30000, 'Mouse yang disukai kucing', 'jerry.jpeg']
         ];
+        foreach ($items as $item) {
+            // Membuat array asosiatif dari data items
+            $itemAssoc = [
+                'id' => $item[0],
+                'name' => $item[1],
+                'price' => $item[2],
+                'description' => $item[3],
+                'source' => $item[4]
+            ];
+
+            // Tampilkan hasilnya
+            echo "Array: ";
+            print_r($itemAssoc);
+            echo "<br>";
+        }
         
         // Output: 
 

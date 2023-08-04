@@ -76,7 +76,9 @@
             var eleven = 'reason';
 
             // Buatlah agar kata-kata di atas menjadi kalimat dalam variabel string dengan nama sentence
-            var sentence = '' //Edit variabel ini sehingga outputnya "JavaScript is the most popular programming language on Earth for a reason."
+            var sentence = word + ' ' + second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh + ' ' + eight + ' ' + nine + ' ' + ten + ' ' + eleven + '.';
+                           console.log(sentence); //Edit variabel ini sehingga outputnya "JavaScript is the most popular programming language on Earth for a reason."
+
 
             // dari sini code jangan diganggu
             document.getElementById("formSentence").innerHTML = sentence
@@ -84,12 +86,12 @@
 
             // Soal No. 2 Memecah string dengan mengakses karakter berdasarkan indexnya
             var kalimat = 'JScript was first released in 1996';
-            var KataPertama // = Tambahkan sendiri di sini!
-            var kataKedua // = Tambahkan sendiri di sini!
-            var kataKetiga // = Tambahkan sendiri di sini!
-            var kataKeempat // = Tambahkan sendiri di sini!
-            var kataKelima // = Tambahkan sendiri di sini!
-            var kataKeenam // = Tambahkan sendiri di sini!
+            var KataPertama = kalimat[0] + kalimat[1] + kalimat[2] + kalimat[3] + kalimat[4] + kalimat[5]+kalimat[6];// = Tambahkan sendiri di sini!
+            var kataKedua = kalimat[8] + kalimat[9] + kalimat[10] + kalimat[11];// = Tambahkan sendiri di sini!
+            var kataKetiga = kalimat[12] + kalimat[13] + kalimat[14] + kalimat[15] +  kalimat[16]; // = Tambahkan sendiri di sini!
+            var kataKeempat = kalimat[17] + kalimat[18] + kalimat[19] + kalimat[20] +  kalimat[21] + kalimat[22] +  kalimat[23] + kalimat[24] + kalimat[25];//;// = Tambahkan sendiri di sini!
+            var kataKelima  = kalimat[26] +  kalimat[27] + kalimat [28];// = Tambahkan sendiri di sini!
+            var kataKeenam = kalimat[29] +  kalimat[30] + kalimat[31] + kalimat[32] + kalimat [33];// = Tambahkan sendiri di sini!
 
             // -- Dari sini code jangan diganggu!
             document.getElementById("firstWord").innerHTML = "First Word: " + KataPertama 
@@ -102,11 +104,11 @@
 
             // Soal No. 3  Mengambil sebagian dari string dengan metode substring
             var kalimat3 = 'JavaScript is the most popular programming language on Earth for a reason.';
-            var kataPertama3 // = Tambahkan sendiri di sini!
-            var kataKedua3 // = Tambahkan sendiri di sini!
-            var kataKetiga3 // = Tambahkan sendiri di sini!
-            var kataKeempat3 // = Tambahkan sendiri di sini!
-            var kataKelima3 // = Tambahkan sendiri di sini!
+            var kataPertama3 = kalimat3.substring(0, 9);// = Tambahkan sendiri di sini!
+            var kataKedua3  = kalimat3.substring(10, 13);// = Tambahkan sendiri di sini!
+            var kataKetiga3 = kalimat3.substring(14, 17);// = Tambahkan sendiri di sini!
+            var kataKeempat3 = kalimat3.substring(18, 23);// = Tambahkan sendiri di sini!
+            var kataKelima3 = kalimat3.substring(25, 32); // = Tambahkan sendiri di sini!
             var kataKeenam3 // = Tambahkan sendiri di sini!
             var kataKetujuh3 // = Tambahkan sendiri di sini!
             var kataKedelapan3 // = Tambahkan sendiri di sini!
@@ -133,11 +135,11 @@
             // Soal No. 4
             var kalimat4 = 'JScript was first released in 1996';
             var contohKataPertama4 = kalimat4.substring(0, 7);
-            var kataKedua4 // = Tambahkan sendiri di sini!
-            var kataKetiga4 // = Tambahkan sendiri di sini!
-            var kataKeempat4 // = Tambahkan sendiri di sini!
-            var kataKelima4 // = Tambahkan sendiri di sini!
-            var kataKeenam4 // = Tambahkan sendiri di sini!
+            var kataKedua4 = kalimat4.substring(8, 11);// = Tambahkan sendiri di sini!
+            var kataKetiga4 = kalimat4.substring(12, 18);// = Tambahkan sendiri di sini!
+            var kataKeempat4 =kalimat4.substring(18, 26);// = Tambahkan sendiri di sini!
+            var kataKelima4 = kalimat4.substring(26, 29);// = Tambahkan sendiri di sini!
+            var kataKeenam4 = kalimat4.substring(29, 34);// = Tambahkan sendiri di sini!
 
             var panjangKataPertama4 = contohKataPertama4.length;
 
